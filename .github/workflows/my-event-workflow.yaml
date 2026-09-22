@@ -12,3 +12,10 @@ jobs:
     steps:
       - name: Build Model
         run: echo "Build Model in CI Pipeline"
+
+  model-cd:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Model
+        run: echo "Deploy Model to AWS in CD Pipeline"
+
