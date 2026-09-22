@@ -1,0 +1,14 @@
+name: My Event Workflow
+on:
+  pull_request:
+    types:
+      - opened
+    branches:
+      - 'main'
+
+jobs:
+  model-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Model
+        run: echo "Build Model in CI Pipeline"
