@@ -3,7 +3,7 @@ run-name: "Pipeline ejecutado por ${{ github.actor }} en ${{ github.ref_name }}"
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, develop, dev ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:  # Permite ejecución manual
