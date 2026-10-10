@@ -10,6 +10,18 @@ def is_even(n: int) -> bool:
     return n % 2 == 0
 
 
+def multiply(a: int, b: int) -> int:
+    return a * b
+
+
+def unused_demo(value: int) -> str:
+    if value > 0:
+        return "positive"
+    if value < 0:
+        return "negative"
+    return "zero"
+
+
 if __name__ == "__main__":
     print(greet("GitHub Actions"))
     print(f"2 + 3 = {add(2, 3)}")
